@@ -90,7 +90,7 @@ Use this when writing the personalised interpretation in Step 5 and recommendati
 | 4–5   | Full test suite across all levels; coverage targets met; whole-team exploratory testing complements automation. |
 
 **Key improvement levers:**
-- Define minimum coverage thresholds per layer (unit: 70%, integration: 50%, E2E: critical paths).
+- Define minimum coverage thresholds per layer (unit: 80%, integration: 50%, E2E: critical paths).
 - Schedule regular exploratory testing sessions with dev and product — not just QA.
 - Introduce accessibility and usability checks as part of the Definition of Done.
 
@@ -125,7 +125,7 @@ Use this when writing the personalised interpretation in Step 5 and recommendati
 
 **Key improvement levers:**
 - Aim to deploy at least weekly — if it's painful, it's a signal to improve, not a reason to avoid it.
-- Introduce infrastructure as code (Terraform, Pulumi) for at least one environment.
+- Introduce infrastructure as code (ex: Terraform) for at least one environment.
 - Add automated quality gates to your pipeline: tests must pass, coverage must not drop, security scans must be clean.
 
 ---
@@ -141,7 +141,7 @@ Use this when writing the personalised interpretation in Step 5 and recommendati
 | 4–5   | Proactive monitoring with anomaly detection; blameless post-mortems for all incidents; public status pages; QA involved in monitoring review. |
 
 **Key improvement levers:**
-- Define and alert on SLIs/SLOs — don't just monitor infrastructure, monitor user experience.
+- Define and alert on SLAs/SLOs — don't just monitor infrastructure, monitor user experience.
 - Run blameless post-mortems for all incidents (not just P1/P2) and track action items to completion.
 - Involve QA and product in reviewing monitoring dashboards — observability is not only ops' job.
 
