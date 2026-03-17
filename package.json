@@ -1,0 +1,29 @@
+{
+  "name": "qa-assessment",
+  "version": "1.0.0",
+  "description": "QA & Software Quality Maturity Assessment skill for Claude Code, Cursor, and Windsurf",
+  "bin": {
+    "qa-assessment": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "questions/",
+    "scoring/"
+  ],
+  "keywords": [
+    "qa",
+    "quality",
+    "assessment",
+    "maturity",
+    "claude",
+    "claude-code",
+    "skill",
+    "agent"
+  ],
+  "author": "rbnfdez",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}

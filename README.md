@@ -50,10 +50,13 @@ Questions are based on two validated frameworks:
 ```
 qa-assessment/
 ├── SKILL.md                    # Core agent instructions (the skill entrypoint)
+├── bin/
+│   └── install.js              # npx installer
 ├── questions/
 │   └── free-assessment.md      # 12 questions with A–E options (L1→L5)
 ├── scoring/
 │   └── rubric.md               # Scoring logic, radar chart rendering, interpretation guide
+├── package.json
 └── README.md                   # This file
 ```
 
@@ -61,13 +64,25 @@ qa-assessment/
 
 ## How to use
 
-### Claude Code
+### Install via npx (recommended)
+
+Run this once to install the skill in your AI editor:
+
+```bash
+npx qa-assessment
+```
+
+This automatically installs the skill to `~/.claude/commands/qa-assessment.md` (Claude Code global) or `.claude/commands/` (project-level if detected).
+
+Then run the assessment:
 
 ```bash
 /skill qa-assessment
 ```
 
-Or invoke directly:
+### Claude Code (manual)
+
+Clone the repo and invoke directly:
 
 ```
 Run the QA assessment skill from qa-assessment/SKILL.md
