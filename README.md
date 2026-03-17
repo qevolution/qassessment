@@ -100,8 +100,8 @@ Paste the contents of `SKILL.md` as a system prompt, then start the conversation
 | Executive-ready report         | ❌                | ✅              |
 | Security & FinOps dimensions   | ❌                | ✅              |
 
-**Book the Full Assessment:** https://www.qualityassessment.dev
-**Contact:** hello@qualityassessment.dev
+**Book the Full Assessment:** https://www.qevolution.tech
+**Contact:** info@qevolution.tech
 
 ---
 
