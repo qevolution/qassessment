@@ -1,3 +1,8 @@
+---
+name: qa-assessment
+description: Run a free QA maturity assessment...
+---
+
 # QA Assessment Skill
 
 ## Overview
