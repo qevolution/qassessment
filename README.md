@@ -29,12 +29,12 @@ The installer will ask you which agents to install to (Cursor, Claude Code, Wind
 
 That's it. The agent takes over from there.
 It will:
-1. Welcome you and explain the process
+1. Ask you to choose your language
 2. Ask 12 questions one at a time (you answer in natural language — no forms, no clicks)
 3. Score your answers across 6 quality dimensions
 4. Show you a radar chart with your maturity level
 5. Give you 3 concrete recommendations based on your weakest areas
-> 💡 The skill auto-detects the language you write in. Answer in English → assessment in English. Answer in Spanish → assessment in Spanish.
+> 💡 The skill supports multiple languages. It asks your preferred language at the start and conducts the entire assessment in that language.
 ---
 ## What the assessment covers
 12 questions across 6 dimensions, based on a validated QA consulting criteria:
